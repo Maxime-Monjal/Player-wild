@@ -35,8 +35,8 @@ header {
 }
 
 .btnCross .barre:first-child {
-    /*transform: translate(0px, 10px) rotateZ(45deg);*/
-    transform: rotate(135deg);
+   transform: translate(0px, 10px) rotateZ(45deg);
+    
 }
 
 .btnCross .barre:nth-child(2) {
@@ -44,8 +44,8 @@ header {
 }
 
 .btnCross .barre:last-child {
-    /*transform: translateY(-10px) rotateZ(-45deg);*/
-    transform: rotate(-135deg);
+    transform: translateY(-10px) rotateZ(-45deg);
+    
 }
 
 .menuBurger {
@@ -149,8 +149,9 @@ p{
     
 }
 .avisNumber{
-    
+    padding-left: 0.5rem;
     padding-right: 3rem;
+    margin: 8px 0 0 0;
 
 }
 .dixYellow{
