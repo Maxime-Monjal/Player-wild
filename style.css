@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+/*________________________________________________________________Title___________________________________________________________________
+*/
+h1{
+    font-size: 38px;
+    color: #B79B80;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #7DC0A7;
+    margin: 25px 0 0 0 ;
+}
+
+h3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #7DC0A7;
+    margin: 0;
+
+}
+
+h4  {
+    font-size: 24px;
+    color : #B79B80;
+    margin-bottom: 20px;
+}
+
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*________________________________________________________________Button lire la suite_____________________________________________
+*/
+.divButton{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.button{
+   background-color: #FFC108;
+   color: #FFFFFF;
+   margin-right: 10px;
+}
+
+
+/*____________________________________________________________Picto des avis ________________________________________________________________________________
+*/
+
+.mainPicto{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.avisNumber{
+    
+    padding-right: 3rem;
+
+}
+.dixYellow{
+    color: #FFC108;
+}
+/*____________________________________________________________photo de profil ________________________________________________________________________________
+*/
+
+.imgProfil{
+    border-radius: 50%;
+    
+}
+
+.article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.imgArticle{
+    width: 100%;
+    height: 100%;
+}
+
+/*____________________________________________________________Formulaire de contact_____________________________________________________________________________
+*/
+
+
+textarea{resize: none;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.contact{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+fieldset{
+    border :none;
+}
+ 
+.send{
+   margin-bottom: 3rem;
+   background-color: #FFC108;
+   
+}
