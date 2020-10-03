@@ -1,51 +1,81 @@
 body {
     margin: 0;
     padding: 0;
+}
+
 /*________________________________________________________________Header___________________________________________________________________
 */    
-}
+
 header {
     background-image: url(Jeux_img/backround_copie1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
     display: flex;
+    position: fixed;
     justify-content: center;
     height: 10rem;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
+
 .logo {
     height: 100%;
 }
 
+/*________________________________________________________________Menu-Burger___________________________________________________________________
+*/
+
 .btn {
+    width: 42px;
+    height: 24px;
     position: absolute;
+    z-index: 1;
     left: 10px;
-    top: 30px;
-    margin-bottom: 40px;
-    z-index: 20;
+    top: 125px;
 }
 
-.btn .barre {
-    width: 30px;
-    height: 3px;
-    background-color: #FFFFFF;
-    margin-top: 3px;
+.btn span {
+    width: 100%;
+    height: 4px;
+    background-color: white;
     border-radius: 10px;
-    transition: all 1s ease-out;   
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.5s ease-in-out;
 }
 
-.btnCross .barre:first-child {
-   transform: translate(0px, 10px) rotateZ(45deg);
-    
+.btn span::before , .btn span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
 }
 
-.btnCross .barre:nth-child(2) {
-    opacity: 0;
+.btn span::before {
+    transform: translateY(-10px);
 }
 
-.btnCross .barre:last-child {
-    transform: translateY(-10px) rotateZ(-45deg);
-    
+.btn span::after {
+    transform: translateY(10px);
+}
+
+.btn.btnCross span {
+    background-color: transparent;
+}
+
+.btn.btnCross span::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.btn.btnCross span::after {
+    transform: translateY(0px) rotate(-45deg);
 }
 
 .menuBurger {
@@ -53,6 +83,7 @@ header {
     left: 0;
     width: 60%;
     height: 100%;
+    top: 160px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     transform: translateX(-110%);
     transition-duration: 2s;
@@ -69,8 +100,7 @@ header {
 
 .menuBurger a {
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
 
 .menuBurger a img {
@@ -83,12 +113,19 @@ header {
 }
 
 .menuBurger hr {
-    border: 1px solid #7DC0A7;;
+    border: 0.5px solid #7DC0A7;;
 }
 
+/*________________________________________________________________Main___________________________________________________________________
+*/
+
+main {
+    margin-top: 190px;
+}
 
 /*________________________________________________________________Title___________________________________________________________________
 */
+
 h1{
     font-size: 38px;
     color: #B79B80;
@@ -126,6 +163,7 @@ p{
 
 /*________________________________________________________________Button lire la suite_____________________________________________
 */
+
 .divButton{
     display: flex;
     justify-content: end;
@@ -140,7 +178,6 @@ p{
    border: 0;
    padding: 5px;
 }
-
 
 /*____________________________________________________________Picto des avis ________________________________________________________________________________
 */
@@ -160,6 +197,7 @@ p{
 .dixYellow{
     color: #FFC108;
 }
+
 /*____________________________________________________________photo de profil ________________________________________________________________________________
 */
 
@@ -174,8 +212,6 @@ p{
     align-items: center;
 }
 
-
-
 .imgArticle{
     width: 100%;
     height: 100%;
@@ -184,8 +220,8 @@ p{
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
 */
 
-
-textarea{resize: none;
+textarea{
+    resize: none;
     border-radius: 1rem;
     margin: 1rem;
 }
@@ -215,40 +251,47 @@ fieldset{
 
 /*____________________________________________________________Footer_____________________________________________________________________________
 */
+
 footer ul {
     display: flex;
     justify-content: space-around;
     padding: 0;
     margin: 0;
 }
+
 footer ul li {
     list-style: none;
     text-decoration: none;
     flex: 1;
     text-align: center;
 }
+
 footer ul li a{
    text-decoration: none;
    color: #7DC0A7;
    font-size: 1.2rem;
 }
+
 .network {
     color: #7DC0A7;
     display: flex;
     justify-content: center;
 }
+
 .picto {
     width :30px;
     padding:10px;
 }
+
 footer{
     background:#C8E8DC;
     width:100%;
     padding-top:70px;
 }
+
 .border {
     height: 70x;
     width: 1px;
     background-color: #7DC0A7;
-    }
+}
 
