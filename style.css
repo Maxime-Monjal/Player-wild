@@ -323,3 +323,23 @@ footer{
     background-color: #7DC0A7;
 }
 
+/*____________________________________________________________Footer_____________________________________________________________________________
+*/
+
+.jeudumoment {
+    width: 100%;
+}
+.photoprofil {
+    width :120px;
+}
+
+.suggestion {
+    display: flex;
+    margin-block-end: 50px;
+    justify-content: center;
+   
+}
+.sizeSuggestion {
+    width :100px;
+    margin: 15px;  
+}
