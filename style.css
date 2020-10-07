@@ -1,3 +1,19 @@
+@font-face
+{
+    font-family: 'Epilogue';
+    src: url('fonts/Epilogue-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -159,7 +175,6 @@ h3 {
     text-align: center;
     background-color: rgba(125, 192, 167, 0.8);
     margin: 0;
-
 }
 
 h4  {
@@ -167,12 +182,21 @@ h4  {
     font-size: 24px;
     color : #B79B80;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+h5  {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color : #B79B80;
+    margin: 0;
+    text-align: center;
 }
 
 
-p{
+p {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
 }
 
 /*________________________________________________________________Carte Article_____________________________________________
@@ -256,6 +280,11 @@ p{
     border-radius: 5px;
 }
 
+.imgProfil.avis {
+    width: 30%;
+    height: auto;
+}
+
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
 */
 
@@ -280,6 +309,20 @@ fieldset{
    margin-bottom: 3rem;
    background-color: #FFC108;
    
+}
+
+.presentation {
+    flex-direction: column;
+    width: 100%;
+}
+
+.presentation > .article {
+    width: 100%
+}
+hr {
+    width: 80%;
+    border: 0.5px solid #B79B80;
+    margin-top: 40px;
 }
 
 
@@ -411,6 +454,9 @@ footer{
         background-color: #FFFFFF;
         padding-right: 1rem;
     }
+
+    
+
     /*-----------------.mainMenu = logo + menu de navigation-----------------*/
    
    
@@ -422,41 +468,27 @@ footer{
         display: none;
     }
 
- 
+     } 
     
-     /*-----------------.footer-----------------*/
+     /*-----------------page contact-----------------*/
 
-     .alignement{
+     h1 {
+        background-color: #C8E8DC;
+        color: #FFFFFF;
+    }
+
+    .presentation {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-        
-
-     }
-    .borderBureau {
-        display: block;
-        height: 20px;
-        width: 1px;
-        background-color: #7DC0A7;
-    }
-    .border {
-        height: 20px;
     }
 
-    footer ul {
-       flex:2;
-    }
-    
-    .network {
-        flex:1;
+    .presentation > .article {
+        width: 50%;
+        margin-bottom: 5rem;
     }
 
-    .picto {
-        padding-top: 0;
-        width: 20px;
-
+    .article > p {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
-    footer ul li a{
-               font-size: 1rem;
-     }
-} 

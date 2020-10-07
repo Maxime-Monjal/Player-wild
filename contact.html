@@ -36,63 +36,78 @@
     <main>
     
         <h1>Contact</h1>
-        <h2>Contactez-nous</h2>
+        <!-- <h2>Contactez-nous</h2> Nécessité de conserver ce titre juste sous le titre "Contact"? -->
 
         
-            <form class="contact">
-                <fieldset>
-                    <label for="name">Nom : </label>
-                    <input type="text" id="name" placeholder="Nom" required>
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email : </label>
-                    <input type="mail" id="email" placeholder="e-mail" required>
-                </fieldset>
-                <fieldset> 
-                    <label for="option">Choisissez une option </label>
-                    <select name="option" id="option">
-                        <option value="">Choisissez une option</option>
-                        <option value="incription">Inscription au club</option>
-                        <option value="avis">Donner son avis</option>
-                        <option value="suggestion">Suggestion</option>
-                    </select>
-                </fieldset>
-                <textarea id="msg" name="user_message" placeholder="Message..." rows="10" cols="60"
+        <form class="contact">
+            <fieldset>
+                <label for="name">Nom : </label>
+                <input type="text" id="name" placeholder="Nom" required>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email : </label>
+                <input type="mail" id="email" placeholder="e-mail" required>
+            </fieldset>
+            <fieldset> 
+                <label for="option">Choissisez une option</label>
+                <select name="option" id="option">
+                    <option value="">Choissisez une option</option>
+                    <option value="incription">Inscription au club</option>
+                    <option value="avis">Donner son avis</option>
+                    <option value="suggestion">Suggestion</option>
+                </select>
+            </fieldset>
+            <textarea id="msg" name="user_message" placeholder="Message..." rows="10" cols="60"
                     required>
-                </textarea>
-                <input type ="submit" class="send" value ="Envoyer">
-            </form>
+            </textarea>
+            <input type ="submit" class="send" value ="Envoyer">
+        </form>
+        
+        <hr>
 
-        <div class="article">
-            <img class="imgProfil" src="Jeux_img/profil_UNO/comica1563706782274.jpg" width="90" height="90">
-            <h4>Nicolas</h4>
-            <p>Adepte des jeux de société pour agrémenter des soirées, je ne rate jamais une édition 
-               du Festival des Jeux à la Carrière (St Herblain).
-               Développeur en devenir, le site Player Wild me permet d'associer deux passions.</p>
-        </div>
+        <h2>L’équipe “Uno”</h2>
 
-        <div class="article">
-            <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452159380.jpg" width="90" height="90">
-            <h4>Fanny</h4>
-            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+        <h1>L'équipe "Uno"</h1>
+        <div class="presentation">
+            <div class="article">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1563706782274.jpg" width="90" height="90">
+                    <h5>Nicolas</h5>
+                </div>
+                <p>Adepte des jeux de société pour agrémenter des soirées, je ne rate jamais une édition 
+                du Festival des Jeux à la Carrière (St Herblain).
+                Développeur en devenir, le site Player Wild me permet d'associer deux passions.</p>   
+            </div>
+
+            <div class="article">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452159380.jpg" width="90" height="90">
+                    <h5>Fanny</h5>
+                </div>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
                 impression.
                 Le Lorem Ipsum est.</p>
-        </div>
+            </div>
 
-        <div class="article">
-            <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452048421.jpg" width="90" height="90">
-            <h4>Alice</h4>
-            <p>J'ai toujours connu des placards remplis de jeux, c'est aussi un bon prétexte pour réunir ses amis.
+            <div class="article">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452048421.jpg" width="90" height="90">
+                    <h5>Alice</h5>
+                </div>
+                <p>J'ai toujours connu des placards remplis de jeux, c'est aussi un bon prétexte pour réunir ses amis.
                 Un brin mauvaise perdante, mais avec le sourire !
-            </p>
-        </div>
+                </p>
+            </div>
 
-        <div class="article">
-            <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452063047.jpg" width="90" height="90">
-            <h4>Maxime</h4>
-            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            <div class="article">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452063047.jpg" width="90" height="90">
+                    <h5>Maxime</h5>
+                </div>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
                 impression.
                 Le Lorem Ipsum est.</p>
+            </div>
         </div>
 
     </main>
