@@ -291,6 +291,7 @@ footer ul {
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    padding-bottom: 5px;
 }
 
 footer ul li {
@@ -303,7 +304,7 @@ footer ul li {
 footer ul li a{
    text-decoration: none;
    color: #7DC0A7;
-   font-size: 1.2rem;
+   font-size: 1.3rem;
 }
 
 .network {
@@ -324,9 +325,13 @@ footer{
 }
 
 .border {
-    height: 70x;
+    height: 25px;
     width: 1px;
     background-color: #7DC0A7;
+}
+
+.borderBureau {
+    display: none;
 }
 
 /*____________________________________________________________Footer_____________________________________________________________________________
@@ -417,5 +422,41 @@ footer{
         display: none;
     }
 
-     } 
+ 
     
+     /*-----------------.footer-----------------*/
+
+     .alignement{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+     }
+    .borderBureau {
+        display: block;
+        height: 20px;
+        width: 1px;
+        background-color: #7DC0A7;
+    }
+    .border {
+        height: 20px;
+    }
+
+    footer ul {
+       flex:2;
+    }
+    
+    .network {
+        flex:1;
+    }
+
+    .picto {
+        padding-top: 0;
+        width: 20px;
+
+    }
+    footer ul li a{
+               font-size: 1rem;
+     }
+} 
