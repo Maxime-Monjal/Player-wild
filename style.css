@@ -347,7 +347,7 @@ footer ul li {
 footer ul li a{
    text-decoration: none;
    color: #7DC0A7;
-   font-size: 1.3rem;
+   font-size: 1rem;
 }
 
 .network {
@@ -468,7 +468,28 @@ footer{
         display: none;
     }
 
- 
+    /*-----------------page contact-----------------*/
+
+    h1 {
+        background-color: #C8E8DC;
+        color: #FFFFFF;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .presentation > .article {
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+
+    .article > p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
     
      /*-----------------.footer-----------------*/
 
