@@ -44,6 +44,10 @@ header {
     height: 100%;
 }
 
+.logoDesktop{
+    display: none;
+}
+
 /*________________________________________________________________Menu-Burger___________________________________________________________________
 */
 
@@ -213,13 +217,19 @@ p{
     
 }
 
-.button{
+.send, .button{
    background-color: #FFC108;
    color: #FFFFFF;
    margin-right: 10px;
    border-radius: 5px;
    border: 0;
    padding: 5px;
+
+}
+
+.button a {
+    color: #FFFFFF;
+    text-decoration: none; 
 }
 
 /*____________________________________________________________Picto des avis ________________________________________________________________________________
@@ -229,6 +239,7 @@ p{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    align-items: flex-end;
     
 }
 .avisNumber{
@@ -299,11 +310,6 @@ hr {
 }
 
 
-/*____________________________________________________________Formulaire de contact_____________________________________________________________________________
-*/
-
-
-
 /*____________________________________________________________Footer_____________________________________________________________________________
 */
 
@@ -370,3 +376,73 @@ footer{
     width :100px;
     margin: 15px;  
 }
+
+
+/*____________________________________________________________Media queries_____________________________________________________________________________
+*/
+
+@media screen and (min-width: 940px) {
+
+
+    /*-----------------.menu = ul-----------------*/ 
+    .menuBurger {
+      all: unset;
+      width: 100%;
+
+    }
+    .menuBurger > ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        background-color: #FFFFFF;
+        padding: 0px;
+        
+        
+    }
+    .menuBurger > ul > li {
+        display: flex;
+        height: 50px;
+        padding-right: 35px;
+        align-items: center;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+    
+        
+        }
+    .menuBurger a  {
+        color: #7DC0A7;
+
+    }
+
+    .menuBurger > ul > li > a > img{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+     
+    .logo{
+        display: none;
+    }
+
+    .logoDesktop{
+        height: 50px;
+        width: 70px;
+        display: inline-block;
+        background-color: #FFFFFF;
+        padding-right: 1rem;
+    }
+    /*-----------------.mainMenu = logo + menu de navigation-----------------*/
+   
+   
+
+    nav {
+        height: 76px;
+    }
+    .btn {
+        display: none;
+    }
+
+     } 
+    
