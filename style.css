@@ -321,10 +321,29 @@ fieldset{
     margin-bottom: 2rem;
 
 }
+
+.article p {
+    width: 70%;
+    margin: auto;
+}
+
 hr {
     width: 80%;
     border: 0.5px solid #B79B80;
     margin-top: 40px;
+}
+
+blockquote {
+    max-width: 750px;
+}
+
+blockquote p::before {
+    content: url(Jeux_img/quoteLeft.svg);
+    
+}
+
+blockquote p::after {
+    content: url(Jeux_img/quoteRight.svg);
 }
 
 
