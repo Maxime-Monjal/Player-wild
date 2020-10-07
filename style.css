@@ -468,27 +468,41 @@ footer{
         display: none;
     }
 
-     } 
+ 
     
-     /*-----------------page contact-----------------*/
+     /*-----------------.footer-----------------*/
 
-     h1 {
-        background-color: #C8E8DC;
-        color: #FFFFFF;
-    }
-
-    .presentation {
+     .alignement{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        
+
+     }
+    .borderBureau {
+        display: block;
+        height: 20px;
+        width: 1px;
+        background-color: #7DC0A7;
+    }
+    .border {
+        height: 20px;
     }
 
-    .presentation > .article {
-        width: 50%;
-        margin-bottom: 5rem;
+    footer ul {
+       flex:2;
+    }
+    
+    .network {
+        flex:1;
     }
 
-    .article > p {
-        margin-left: 2rem;
-        margin-right: 2rem;
+    .picto {
+        padding-top: 0;
+        width: 20px;
+
     }
+    footer ul li a{
+               font-size: 1rem;
+     }
+} 
