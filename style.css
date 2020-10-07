@@ -167,12 +167,21 @@ h4  {
     font-size: 24px;
     color : #B79B80;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+h5  {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color : #B79B80;
+    margin: 0;
+    text-align: center;
 }
 
 
-p{
+p {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
 }
 
 /*________________________________________________________________Carte Article_____________________________________________
@@ -282,6 +291,14 @@ fieldset{
    
 }
 
+.presentation {
+    flex-direction: column;
+    width: 100%;
+}
+
+.presentation > .article {
+    width: 100%
+}
 
 /*____________________________________________________________Footer_____________________________________________________________________________
 */
@@ -406,6 +423,9 @@ footer{
         background-color: #FFFFFF;
         padding-right: 1rem;
     }
+
+    
+
     /*-----------------.mainMenu = logo + menu de navigation-----------------*/
    
    
@@ -419,3 +439,25 @@ footer{
 
      } 
     
+     /*-----------------page contact-----------------*/
+
+     h1 {
+        background-color: #C8E8DC;
+        color: #FFFFFF;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .presentation > .article {
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+
+    .article > p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
