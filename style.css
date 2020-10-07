@@ -1,3 +1,19 @@
+@font-face
+{
+    font-family: 'Epilogue';
+    src: url('fonts/Epilogue-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -159,7 +175,6 @@ h3 {
     text-align: center;
     background-color: rgba(125, 192, 167, 0.8);
     margin: 0;
-
 }
 
 h4  {
@@ -265,6 +280,11 @@ p {
     border-radius: 5px;
 }
 
+.imgProfil.avis {
+    width: 30%;
+    height: auto;
+}
+
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
 */
 
@@ -299,6 +319,12 @@ fieldset{
 .presentation > .article {
     width: 100%
 }
+hr {
+    width: 80%;
+    border: 0.5px solid #B79B80;
+    margin-top: 40px;
+}
+
 
 /*____________________________________________________________Footer_____________________________________________________________________________
 */
