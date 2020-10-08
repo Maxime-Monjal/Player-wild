@@ -145,6 +145,10 @@ header {
 main {
     margin: 190px 5px 30px 5px;
 }
+.pageJeu {
+    display: flex;
+    flex-direction: column;
+}
 
 /*________________________________________________________________Title___________________________________________________________________
 */
@@ -182,7 +186,7 @@ h4  {
     font-size: 24px;
     color : #B79B80;
     margin-bottom: 20px;
-    text-align: center;
+    
 }
 
 h5  {
@@ -245,7 +249,7 @@ p {
 
 .mainPicto{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
     
@@ -271,18 +275,27 @@ p {
 .article{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    margin: 20px;
 }
 
 .imgArticle{
     width: 100%;
-    height: 100%;
     border-radius: 5px;
+    margin-top: 90px;
 }
 
 .imgProfil.avis {
     width: 30%;
     height: auto;
+}
+.boxpjeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.justifie {
+    margin: 20px;
 }
 
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
@@ -456,7 +469,38 @@ footer{
         background-color: #FFFFFF;
         padding-right: 1rem;
     }
-
+    /*-----------------page jeu-----------------*/
+    .pageJeu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .pageJeu h1 {
+        flex:1;
+    }
+    .boxpjeu {
+        width: 50%;
+    }
+    .boxpjeu.avis{
+        order:4;
+    }
+    .imgArticle {
+        padding-bottom: 20px;
+        width: 80%;
+    }
+    .imgProfil.avis {
+        width: 15%;
+        height: auto;
+    }
+    .sizeSuggestion {
+        width: 150px;
+    }
+    h4  {
+        margin: 30px;   
+        margin-top: 70px;
+        margin-bottom: auto;
+    }
+    
     
 
     /*-----------------.mainMenu = logo + menu de navigation-----------------*/
