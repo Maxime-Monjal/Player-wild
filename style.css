@@ -444,7 +444,7 @@ main {
       position: fixed;
       margin-left : 150px;
       z-index: 2;
-     
+      box-shadow: 0.5px 0.1px 0.5px #484848;
 
 
     }
@@ -470,6 +470,16 @@ main {
         }
     .menuBurger a  {
         color: #7DC0A7;
+        transition: all 0.5s ease-out; 
+        -webkit-transition: all 0.5s ease-out;
+
+    }
+    .menuBurger a:hover  {
+        color: #5b8b7a;
+
+    }
+    .menuBurger a:active  {
+        color: #5b8b7a;
 
     }
 
@@ -492,6 +502,8 @@ main {
         position: fixed;
         padding-right : 150px;
         z-index: 2;
+        box-shadow: .5px 0.1px 0.5px #484848;
+
     }
 
     
