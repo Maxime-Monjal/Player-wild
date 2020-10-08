@@ -9,9 +9,11 @@
 </head>
 
 <body>
+    <img class="logoDesktop" src="Jeux_img/logo_g-01.png" alt="logo desktop" title="logo Player Wild">
+
+
     <header>
-        <img class="logo" src="Jeux_img/logo_w-01.png" alt="logo" title="logo Player Wild">
-        <img class="logoDesktop" src="Jeux_img/logo_g-01.png" alt="logo" title="logo Player Wild">
+        <img class="logo" src="Jeux_img/logo_w-01.png" alt="logo mobile" title="logo Player Wild">
 
         <!-- Menu Burger -->
 
@@ -34,103 +36,114 @@
     </header>
 
     <main>
-    
         <h1>Contact</h1>
-    
         <form class="contact">
             <fieldset>
-                <label for="name">Nom : </label>
-                <input type="text" id="name" placeholder="Nom" required>
+                <label for="name">Nom* : </label>
+                <br><input type="text" id="name" placeholder="" required>
             </fieldset>
             <fieldset>
-                <label for="email">Email : </label>
-                <input type="mail" id="email" placeholder="e-mail" required>
+                <label for="email">Email* : </label>
+                <br><input type="mail" id="email" placeholder="" required>
             </fieldset>
             <fieldset> 
-                <label for="option">Choissisez une option</label>
-                <select name="option" id="option">
+                <label for="option">Choissisez une option :</label>
+                <br><select name="option" id="option">
                     <option value="">Choissisez une option</option>
                     <option value="incription">Inscription au club</option>
                     <option value="avis">Donner son avis</option>
                     <option value="suggestion">Suggestion</option>
                 </select>
             </fieldset>
-            <textarea id="msg" name="user_message" placeholder="Message..." rows="10" cols="60"
+            <div class="textarea">
+            <label for="msg">Votre message* :</label>
+            <br><textarea id="msg" name="user_message" placeholder="" rows="10" cols="50"
                     required>
             </textarea>
+        
+            <br><p id="champsRequis">* Champs requis</p>
+        </div>
             <input type ="submit" class="send" value ="Envoyer">
         </form>
-        
+            
         <hr>
-
         <h1>L’équipe “Uno”</h1>
-
         <div class="presentation">
             <div class="article">
-                <div class="profil>
-                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1563706782274.jpg" width="90" height="90">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1563706782274.jpg" alt="profil Nicolas" width="90" height="90">
                     <h5>Nicolas</h5>
                 </div>
-                <div class="description">
-                    <div class="quote"><img src="Jeux_img/quoteLeft.svg" alt=""></div>
-                    <p>Adepte des jeux de société pour agrémenter des soirées, je ne rate jamais une édition 
+                <blockquote>
+                    <p>
+                    Adepte des jeux de société pour agrémenter des soirées, je ne rate jamais une édition
                     du Festival des Jeux à la Carrière (St Herblain).
                     Développeur en devenir, le site Player Wild me permet d'associer deux passions.
                     </p>
-                </div>
+                </blockquote>
             </div>
-        
-
-            <div class="article">
-                <div class="profil>
-                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452159380.jpg" width="90" height="90">
-                    <h5>Fanny</h5>
-                </div>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                    impression.
-                    Le Lorem Ipsum est.</p>
-                </div>
-
             <div class="article">
                 <div class="profil">
-                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452048421.jpg" width="90" height="90">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452159380.jpg" alt=" profil Fanny" width="90" height="90">
+                    <h5>Fanny</h5>
+                </div>
+                <blockquote>
+                    <p>
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                        impression.
+                        Le Lorem Ipsum est.
+                    </p>
+                </blockquote>
+            </div>
+            <div class="article">
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452048421.jpg" alt="profil Alice" width="90" height="90">
                     <h5>Alice</h5>
                 </div>
-                <p>J'ai toujours connu des placards remplis de jeux, c'est aussi un bon prétexte pour réunir ses amis.
-                Un brin mauvaise perdante, mais avec le sourire !
-                </p>
+                <blockquote>
+                    <p>
+                        J'ai toujours connu des placards remplis de jeux, c'est aussi un bon prétexte pour réunir ses amis.
+                        Un brin mauvaise perdante, mais avec le sourire !
+                    </p>
+                </blockquote>
             </div>
-
             <div class="article">
-                    <div class="profil">
-                        <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452063047.jpg" width="90" height="90">
-                        <h5>Maxime</h5>
-                    </div>
-                    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
-                    impression.
-                    Le Lorem Ipsum est.</p>
+                <div class="profil">
+                    <img class="imgProfil" src="Jeux_img/profil_UNO/comica1601452063047.jpg" alt="profil Maxime" width="90" height="90">
+                    <h5>Maxime</h5>
+                </div>
+                <blockquote>
+                    <p>
+                       Jeux de rôles, jeux d'aventures, jeux coopératifs ou jeux de stratégie, peu importe... Pour moi c'est toujours un moyen de passer un bon moment en famille ou entre amis !
+                    </p>
+                </blockquote>
             </div>
         </div>
-
     </main>
 
-    <footer>
-        <nav class="alignement">
-            <ul>
-                <li><a href="Contact.html">Contactez-nous</a></li>
-                <div class="border"></div>
-                <li><a href="Newsletters.html"> Newsletters</a></li>   
-            </ul>
-            <div class="borderBureau"></div>  
-            <section class="network">
-                <a href="http://facebook.com"><img class="picto" src="Jeux_img/facebook.svg" alt="facebook" class=></a>
-                <a href="http://instagram.com"><img class="picto" src="Jeux_img/instagram.svg" alt="instagram"></a>
-                <a href="http://twitter.com"><img class="picto" src="Jeux_img/twitter.svg" alt="twitter"></a>
-            </section>
-            </nav>
-    </footer>
+   <!-- Footer -->
 
-    <script src="script.js"></script>
+   <footer>
+    <nav class="alignement">
+    <ul>
+        <li><a href="Contact.html">Contactez-nous</a></li>
+        <div class="border"></div>
+        <li><a href="Newsletters.html"> Newsletters</a></li>   
+    </ul>
+    <div class="borderBureau"></div>  
+    <section class="network">
+        <a href="http://facebook.com"><img class="picto" src="Jeux_img/facebook.svg" alt="facebook" class=></a>
+        <a href="http://instagram.com"><img class="picto" src="Jeux_img/instagram.svg" alt="instagram"></a>
+        <a href="http://twitter.com"><img class="picto" src="Jeux_img/twitter.svg" alt="twitter"></a>
+    </section>
+    </nav>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 
 </html>
+
+
+

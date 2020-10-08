@@ -301,10 +301,10 @@ p {
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
 */
 
-textarea{
+.textarea {
     resize: none;
-    border-radius: 1rem;
-    margin: 1rem;
+    width: 400px;
+    margin: 0;
 }
 
 .contact{
@@ -321,7 +321,21 @@ fieldset{
 .send{
    margin-bottom: 3rem;
    background-color: #FFC108;
-   
+}
+#name, #email, #option {
+    width: 400px;
+    border-radius: 0.2rem;
+    height: 2rem;
+}
+
+#msg {
+    width: 400px;
+    border-radius: 0.2rem;
+}
+
+#champsRequis {
+    margin-top: 0;
+    font-size: 12px;
 }
 
 .presentation {
@@ -334,10 +348,29 @@ fieldset{
     margin-bottom: 2rem;
 
 }
+
+.article p {
+    width: 70%;
+    margin: auto;
+}
+
 hr {
     width: 80%;
     border: 0.5px solid #B79B80;
     margin-top: 40px;
+}
+
+blockquote {
+    max-width: 750px;
+}
+
+blockquote p::before {
+    content: url(Jeux_img/quoteLeft.svg);
+    
+}
+
+blockquote p::after {
+    content: url(Jeux_img/quoteRight.svg);
 }
 
 
@@ -419,11 +452,27 @@ footer{
 
 @media screen and (min-width: 940px) {
 
+    /*-----------------header-----------------*/ 
+
+
+header {
+    height: 300px;
+    position: initial;
+}
+
+main {
+    margin: 90px 5px 30px 5px;
+}
 
     /*-----------------.menu = ul-----------------*/ 
     .menuBurger {
       all: unset;
       width: 100%;
+      position: fixed;
+      margin-left : 150px;
+      z-index: 2;
+      box-shadow: 0.5rem 0.1rem 0.5rem #484848;
+
 
     }
     .menuBurger > ul{
@@ -448,6 +497,17 @@ footer{
         }
     .menuBurger a  {
         color: #7DC0A7;
+        transition: all 0.5s ease-out; 
+        -webkit-transition: all 0.5s ease-out;
+
+    }
+    .menuBurger a:hover  {
+        color: #010202;
+
+    }
+    .menuBurger a:active  {
+       color:  #010202;
+       ;
 
     }
 
@@ -464,10 +524,14 @@ footer{
 
     .logoDesktop{
         height: 50px;
-        width: 70px;
-        display: inline-block;
+        width: 50px;
+        display: block;
         background-color: #FFFFFF;
-        padding-right: 1rem;
+        position: fixed;
+        padding-right : 150px;
+        z-index: 2;
+        box-shadow: 0.5rem 0.1rem 0.5rem #484848;
+
     }
     /*-----------------page jeu-----------------*/
     .pageJeu {
@@ -514,6 +578,18 @@ footer{
         display: none;
     }
 
+
+
+    /*-----------------Article-----------------*/
+
+    .imgArticle:hover{
+        opacity: 0.9;
+    }
+    .titleArticle{
+        z-index: 1;
+    }
+
+
     /*-----------------page contact-----------------*/
 
     h1 {
@@ -530,11 +606,22 @@ footer{
     .presentation > .article {
         width: 50%;
         margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
     }
 
     .article > p {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .profil {
+        margin-left: 1rem;
+    }
+
+    .imgProfil:hover{
+        transform: rotate(10deg) scale(1.1);
+        transition: 0.5s ease-in-out;
     }
     
      /*-----------------.footer-----------------*/
