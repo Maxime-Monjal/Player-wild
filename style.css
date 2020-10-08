@@ -206,18 +206,29 @@ p {
 /*________________________________________________________________Carte Article_____________________________________________
 */
 
-.titleArticle {
-    position: relative;
+.lieuxArticle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardArticle {
+    flex: 0 0 48%;
+    max-width: 50%;
+    padding: 10px;
+}
+
+/*.titleArticle {
     width: 100%;
     top: 58px;
-}
+}*/
 
 .titleArticle h2 {
     border-radius: 5px 5px 0 0;
+    position: relative;
 }
 
-.lieux {
-    top: 33px;
+.titleArticle.lieux h2 {
+    top: 34px;
 }
 
 /*________________________________________________________________Button lire la suite_____________________________________________
@@ -587,6 +598,25 @@ main {
     }
     .titleArticle{
         z-index: 1;
+    }
+
+    /*-----------------page lieux-----------------*/
+
+    .cardArticle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .titleArticle.lieux h2 {
+        position: relative;
+        top: 34px;
+    }
+
+    .divButton {
+        align-self: flex-end;
     }
 
 
