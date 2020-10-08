@@ -288,10 +288,11 @@ p {
 /*____________________________________________________________Formulaire de contact_____________________________________________________________________________
 */
 
-textarea{
+.textarea {
     resize: none;
-    border-radius: 1rem;
-    margin: 1rem;
+    width: 400px;
+    border-radius: 0.5rem;
+    margin: 0;
 }
 
 .contact{
@@ -308,7 +309,9 @@ fieldset{
 .send{
    margin-bottom: 3rem;
    background-color: #FFC108;
-   
+}
+#name, #email, #option, #msg {
+    width: 400px;
 }
 
 .presentation {
@@ -523,11 +526,17 @@ main {
     .presentation > .article {
         width: 50%;
         margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
     }
 
     .article > p {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .profil {
+        margin-left: 1rem;
     }
     
      /*-----------------.footer-----------------*/
