@@ -519,6 +519,18 @@ main {
         display: none;
     }
 
+
+
+    /*-----------------Article-----------------*/
+
+    .imgArticle:hover{
+        opacity: 0.9;
+    }
+    .titleArticle{
+        z-index: 1;
+    }
+
+
     /*-----------------page contact-----------------*/
 
     h1 {
@@ -540,6 +552,11 @@ main {
     .article > p {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .imgProfil:hover{
+        transform: rotate(10deg) scale(1.1);
+        transition: 0.5s ease-in-out;
     }
     
      /*-----------------.footer-----------------*/
