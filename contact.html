@@ -40,11 +40,11 @@
         <form class="contact">
             <fieldset>
                 <label for="name">Nom* : </label>
-                <br><input type="text" id="name" placeholder="Nom" required>
+                <br><input type="text" id="name" placeholder="" required>
             </fieldset>
             <fieldset>
                 <label for="email">Email* : </label>
-                <br><input type="mail" id="email" placeholder="e-mail" required>
+                <br><input type="mail" id="email" placeholder="" required>
             </fieldset>
             <fieldset> 
                 <label for="option">Choissisez une option :</label>
@@ -57,11 +57,11 @@
             </fieldset>
             <div class="textarea">
             <label for="msg">Votre message* :</label>
-            <br><textarea id="msg" name="user_message" placeholder="Message..." rows="10" cols="50"
+            <br><textarea id="msg" name="user_message" placeholder="" rows="10" cols="50"
                     required>
             </textarea>
         
-            <br><p>* Champs requis</p>
+            <br><p id="champsRequis">* Champs requis</p>
         </div>
             <input type ="submit" class="send" value ="Envoyer">
         </form>
