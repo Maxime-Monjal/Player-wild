@@ -15,17 +15,17 @@ Player-wild est un site d'avis sur des jeux de société !
 ## Contact
 
   Maxime Monjal : [<img src='https://cdn.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg' alt='linkedin'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
-  [<img src='https://github.githubassets.com/images/modules/logos_page/Octocat.png' alt='github'  height='40'>](https://github.com/Maxime-Monjal) 
+  [<img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='github'  height='40'>](https://github.com/Maxime-Monjal) 
   
   
   Fanny Debrabant :  [<img src='https://cdn.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg' alt='linkedin' height='40'>](https://www.linkedin.com/in/fanny-debrabant/) 
-  [<img src='https://github.githubassets.com/images/modules/logos_page/Octocat.png' alt='github'  height='40'>](https://github.com/fdebrabant) 
+  [<img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='github'  height='40'>](https://github.com/fdebrabant) 
   
   
   Nicolas Bonamy :  [<img src='https://cdn.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg' alt='linkedin' height='40'>](https://www.linkedin.com/in/nicolas-bonamy/) 
-  [<img src='https://github.githubassets.com/images/modules/logos_page/Octocat.png' alt='github'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
+  [<img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='github'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
   
   
   Alice Audureau :  [<img src='https://cdn.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg' alt='linkedin' height='40'>](https://www.linkedin.com/in/alice-audureau-11a0471ba/) 
-  [<img src='https://github.githubassets.com/images/modules/logos_page/Octocat.png' alt='github'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
+  [<img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='github'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
   
