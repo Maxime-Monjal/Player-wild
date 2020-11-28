@@ -1,6 +1,6 @@
 # Player-wild
 
-Here: https://maxime-monjal.github.io/Player-wild/
+Le site est disponible ici : https://maxime-monjal.github.io/Player-wild/
 
 
 Player-wild est un site d'avis sur des jeux de société !
