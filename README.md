@@ -14,7 +14,8 @@ Player-wild est un site d'avis sur des jeux de société !
 
 ## Contact
 
-  Maxime Monjal : [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/maxime-monjal-79a777199/) 
-  Fanny Debrabant :  
-  Nicolas Bonamy :  
-  Alice Audureau : 
+  Maxime Monjal : [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
+  
+  Fanny Debrabant :  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/fanny-debrabant/) 
+  Nicolas Bonamy :  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/nicolas-bonamy/) 
+  Alice Audureau :  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/alice-audureau-11a0471ba/) 
