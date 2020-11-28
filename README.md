@@ -1,4 +1,4 @@
 # Player-wild
-Projet HTML CSS JS 
+Projet HTML CSS Javascript
 
 Here: https://maxime-monjal.github.io/Player-wild/
