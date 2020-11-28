@@ -14,7 +14,7 @@ Player-wild est un site d'avis sur des jeux de société !
 
 ## Contact
 
-  Maxime Monjal : [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' color="blue" height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
+  Maxime Monjal : [<img src='https://cdn.1min30.com/wp-content/uploads/2017/08/LinkedIn-logo.jpg' alt='linkedin'  height='40'>](https://www.linkedin.com/in/maxime-monjal/) 
   
   Fanny Debrabant :  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/fanny-debrabant/) 
   
